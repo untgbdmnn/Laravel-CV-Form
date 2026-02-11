@@ -1,66 +1,183 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🧑‍💼 Laravel CV Builder
 
-## About Laravel
+**Build Professional CVs with Ease**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A modern, full-featured CV generator built with Laravel 11 that enables users to create, edit, and download professional resumes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=flat-square&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=flat-square&logo=bootstrap)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📋 Table of Contents
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Hashtags](#hashtags)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 📖 About the Project
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Laravel CV Builder** is a web application designed to simplify the CV creation process. This project provides an intuitive interface for users to input their personal information, skills, education, and work experience, then generate a professional-looking CV.
 
-### Premium Partners
+The application is built using **Laravel 11**, leveraging modern PHP features and following Laravel best practices. It includes form validation, image handling, and a clean, responsive UI.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+## ✨ Features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🔹 Core Functionality
+- **📝 Comprehensive Input Form** - Collect all essential CV information
+- **📷 Photo Upload** - Profile picture with image preview and validation
+- **✏️ edit_file Existing CVs** - Update any previously created CV
+- **👁️ Download/View CV** - Generate and view the final CV
 
-## Code of Conduct
+### 🔹 CV Sections
+- **Basic Information** - Name, title, email, phone, address
+- **About/Bio** - Personal biography and professional summary
+- **Skills** - Add multiple skills with proficiency level sliders (0-100%)
+- **Education** - Multiple education entries with institution, year, and details
+- **Experience** - Work experience with position, company, year, and description
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 🔹 Technical Features
+- **Form Validation** - Server-side validation using Laravel validation rules
+- **Image Processing** - Image upload handling with file type and size validation
+- **Responsive Design** - Mobile-friendly interface using Bootstrap 5
+- **Dynamic Form Fields** - Add/remove skills, education, and experience entries
+- **Flash Messages** - Success notifications for data operations
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Tech Stack
 
-## License
+| Category | Technology |
+|----------|------------|
+| **Backend** | Laravel 11, PHP 8.2 |
+| **Frontend** | Blade Templates, Bootstrap 5 |
+| **Styling** | Custom CSS, Bootstrap Icons |
+| **Database** | MySQL (via Laravel Eloquent ORM) |
+| **Image Handling** | Intervention Image |
+| **JavaScript** | Vanilla JS for dynamic form handling |
+| **Version Control** | Git |
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- PHP 8.2 or higher
+- Composer
+- Laravel 11.x
+- Node.js & NPM (for asset compilation)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Laravel-CV-Form
+   ```
+
+2. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Configure environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Run migrations**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Start the development server**
+   ```bash
+   php artisan serve
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+Laravel-CV-Form/
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   │       └── InsertDataController.php    # Main controller for CV operations
+│   └── Models/
+│       ├── InformasiDasar.php              # Basic information model
+│       ├── TentangSaya.php                 # About/Bio model
+│       ├── Keahlian.php                     # Skills model
+│       ├── Pendidikan.php                   # Education model
+│       └── Pengalaman.php                   # Experience model
+├── database/
+│   └── migrations/                          # Database schema
+├── resources/
+│   ├── views/
+│   │   ├── input.blade.php                  # CV input form
+│   │   ├── edit.blade.php                   # edit_file existing CV
+│   │   ├── download.blade.php               # View/Download CV
+│   │   └── layouts/                         # Layout templates
+├── public/
+│   ├── css/                                 # Stylesheets
+│   ├── js/                                  # JavaScript files
+│   └── pictures/                            # Uploaded images
+└── routes/
+    └── web.php                              # Application routes
+```
+
+---
+
+## 📝 Usage
+
+1. **Create a New CV**
+   - Navigate to the homepage
+   - Fill in all required fields (basic info, bio, skills, education, experience)
+   - Upload a profile photo
+   - Click "Buat CV" to generate
+
+2. **Edit an Existing CV**
+   - Access the edit page for any CV
+   - Modify any section as needed
+   - Submit changes
+
+3. **View/Download CV**
+   - After creation, view the formatted CV
+   - Print or save as PDF
+
+---
+
+## #️⃣ Hashtags
+
+```
+#Laravel #Laravel11 #PHP #PHP82 #WebDevelopment #CVBuilder 
+#ResumeBuilder #WebApp #FullStack #Bootstrap #BladeTemplates
+#EloquentORM #MySQL #Portfolio #JobSearch #CareerDevelopment
+#WebDeveloper #SoftwareEngineer #Programming #Coding #Developer
+#Tech #Indonesia #Opensource #MITLicense #LearnToCode
+```
+
+---
+
+<div align="center">
+
+**Built with ❤️ using Laravel**
+
+</div>
+
